@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/client-rest-service/client-rest-service.iml" filepath="$PROJECT_DIR$/client-rest-service/client-rest-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client-rest-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/client-rest-service_main.iml" group="client-rest-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client-rest-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/client-rest-service_test.iml" group="client-rest-service" />
+      <module fileurl="file://$PROJECT_DIR$/simple-rest-service/simple-rest-service.iml" filepath="$PROJECT_DIR$/simple-rest-service/simple-rest-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simple-rest-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/simple-rest-service_main.iml" group="simple-rest-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simple-rest-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/simple-rest-service_test.iml" group="simple-rest-service" />
+    </modules>
+  </component>
+</project>
