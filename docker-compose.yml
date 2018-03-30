@@ -1,14 +1,15 @@
 version: "3"
 services:
-  
-  db:
-    image: postgres
+  count-service:
+    image: jrec/count:0.1
     ports:
-     - "5433:5432"
-    environment:
-     - POSTGRES_PASSWORD=password
-     - POSTGRES_USER=postgres
-     - POSTGRES_DB=countDb
+      - "8000:8080"
+    networks:
+      - webnet
+  showcount-service:
+    image: jrec/showcount:0.1
+    ports:
+      - "8001:8080"
     networks:
       - webnet
 networks:
